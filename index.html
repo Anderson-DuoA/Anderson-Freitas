@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anderson Freitas – Freelancer Digital</title>
+  <meta name="description" content="Anderson Freitas, freelancer digital especializado em serviços criativos e tecnológicos. Solicite seu orçamento."/>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo">Anderson<span> Freitas</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#servicos">Serviços</a>
+        <a href="#como-funciona">Como Funciona</a>
+        <a href="#planos">Orçamento</a>
+        <a href="#diferenciais">Por que eu?</a>
+        <a href="#contato" class="btn btn-outline">Falar Comigo</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-glow g1"></div>
+    <div class="hero-glow g2"></div>
+
+    <div class="container hero-inner">
+
+      <!-- COPY LEFT -->
+      <div class="hero-left">
+        <div class="hero-available">
+          <span class="avail-dot"></span>
+          Disponível para novos projetos
+        </div>
+        <h1 class="hero-title">
+          <span class="ht-line">Anderson</span>
+          <span class="ht-line ht-accent">Freitas.</span>
+          <span class="ht-role">Freelancer Digital</span>
+        </h1>
+        <p class="hero-desc">Design, desenvolvimento e estratégia — do briefing à entrega final. Seu projeto nas mãos certas, com prazo e qualidade garantidos.</p>
+        <div class="hero-ctas">
+          <a href="#contato" class="btn btn-neon">Pedir Orçamento</a>
+          <a href="#servicos" class="btn btn-ghost-dark">Ver serviços ↓</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hstat">
+            <strong>+80</strong>
+            <span>Clientes</span>
+          </div>
+          <div class="hstat">
+            <strong>+120</strong>
+            <span>Projetos</span>
+          </div>
+          <div class="hstat">
+            <strong>100%</strong>
+            <span>Aprovação</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- BENTO GRID RIGHT -->
+      <div class="hero-right">
+        <div class="bento-grid">
+          <div class="bento-tile bt-tall" style="--g1:#6366f1;--g2:#8b5cf6">
+            <div class="bt-icon">
+              <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="3" y="3" width="11" height="11" rx="2" fill="currentColor" opacity=".9"/>
+                <rect x="18" y="3" width="11" height="11" rx="2" fill="currentColor" opacity=".5"/>
+                <rect x="3" y="18" width="11" height="11" rx="2" fill="currentColor" opacity=".5"/>
+                <rect x="18" y="18" width="11" height="11" rx="2" fill="currentColor" opacity=".9"/>
+              </svg>
+            </div>
+            <div class="bt-body">
+              <strong>Web Dev</strong>
+              <p>Sites &amp; Sistemas</p>
+            </div>
+          </div>
+          <div class="bento-tile" style="--g1:#06b6d4;--g2:#0ea5e9">
+            <div class="bt-icon">
+              <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="16" cy="16" r="11" stroke="currentColor" stroke-width="2.5"/>
+                <circle cx="16" cy="16" r="4" fill="currentColor"/>
+              </svg>
+            </div>
+            <div class="bt-body"><strong>Design</strong></div>
+          </div>
+          <div class="bento-tile" style="--g1:#f59e0b;--g2:#f97316">
+            <div class="bt-icon">
+              <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 10h22M5 16h14M5 22h18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="bt-body"><strong>Social Media</strong></div>
+          </div>
+          <div class="bento-tile" style="--g1:#10b981;--g2:#06b6d4">
+            <div class="bt-icon">
+              <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 4L28 24H4L16 4Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="bt-body"><strong>Consultoria</strong></div>
+          </div>
+          <div class="bento-tile bt-wide" style="--g1:#ec4899;--g2:#8b5cf6">
+            <div class="bt-icon">
+              <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 27L9 13L15 20L21 7L27 4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="bt-body">
+              <strong>Conteúdo &amp; Vídeo</strong>
+              <p>Copy, SEO &amp; Edição</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- SKILLS TICKER -->
+    <div class="hero-ticker">
+      <div class="ticker-track">
+        <span>Web Design</span><em>✦</em>
+        <span>Desenvolvimento Web</span><em>✦</em>
+        <span>Social Media</span><em>✦</em>
+        <span>Branding</span><em>✦</em>
+        <span>Copywriting</span><em>✦</em>
+        <span>SEO</span><em>✦</em>
+        <span>E-commerce</span><em>✦</em>
+        <span>Consultoria Digital</span><em>✦</em>
+        <span>Edição de Vídeo</span><em>✦</em>
+        <span>Web Design</span><em>✦</em>
+        <span>Desenvolvimento Web</span><em>✦</em>
+        <span>Social Media</span><em>✦</em>
+        <span>Branding</span><em>✦</em>
+        <span>Copywriting</span><em>✦</em>
+        <span>SEO</span><em>✦</em>
+        <span>E-commerce</span><em>✦</em>
+        <span>Consultoria Digital</span><em>✦</em>
+        <span>Edição de Vídeo</span><em>✦</em>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section class="section" id="servicos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">O Que Faço</span>
+        <h2>Serviços que entrego com qualidade e prazo</h2>
+        <p>Escolha o serviço que você precisa e entre em contato. Orçamento em até 24h, sem compromisso.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="svc-icon" style="color:#818cf8">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 013 3L7 19l-4 1 1-4z"/></svg>
+          </div>
+          <h3>Design Gráfico</h3>
+          <p>Logos, banners, posts para redes sociais, identidade visual completa para sua empresa.</p>
+          <ul>
+            <li>✓ Logotipo profissional</li>
+            <li>✓ Material para redes sociais</li>
+            <li>✓ Identidade visual</li>
+          </ul>
+          <div class="svc-price">a partir de <strong>R$ 150</strong></div>
+          <a href="#contato" class="btn btn-outline">Solicitar orçamento</a>
+        </div>
+        <div class="service-card featured">
+          <div class="featured-badge">⭐ Mais Pedido</div>
+          <div class="svc-icon" style="color:#fbbf24">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Desenvolvimento Web</h3>
+          <p>Sites profissionais, landing pages, lojas virtuais e sistemas web do zero.</p>
+          <ul>
+            <li>✓ Site responsivo e moderno</li>
+            <li>✓ Loja virtual (e-commerce)</li>
+            <li>✓ Suporte e manutenção</li>
+          </ul>
+          <div class="svc-price">a partir de <strong>R$ 600</strong></div>
+          <a href="#contato" class="btn btn-primary">Solicitar orçamento</a>
+        </div>
+        <div class="service-card">
+          <div class="svc-icon" style="color:#34d399">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          </div>
+          <h3>Social Media</h3>
+          <p>Gestão completa das suas redes sociais com estratégia, criação de conteúdo e análise de métricas.</p>
+          <ul>
+            <li>✓ Criação de conteúdo</li>
+            <li>✓ Agendamento de posts</li>
+            <li>✓ Relatórios mensais</li>
+          </ul>
+          <div class="svc-price">a partir de <strong>R$ 400<span>/mês</span></strong></div>
+          <a href="#contato" class="btn btn-outline">Solicitar orçamento</a>
+        </div>
+        <div class="service-card">
+          <div class="svc-icon" style="color:#f472b6">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          </div>
+          <h3>Redação & Conteúdo</h3>
+          <p>Textos para blog, e-mail marketing, descrições de produtos e roteiros para vídeo.</p>
+          <ul>
+            <li>✓ Artigos para blog (SEO)</li>
+            <li>✓ E-mail marketing</li>
+            <li>✓ Copywriting</li>
+          </ul>          <div class="svc-price">a partir de <strong>R$ 80</strong></div>          <a href="#contato" class="btn btn-outline">Solicitar orçamento</a>
+        </div>
+        <div class="service-card">
+          <div class="svc-icon" style="color:#60a5fa">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+          </div>
+          <h3>Consultoria Digital</h3>
+          <p>Análise completa da sua presença digital com estratégias para crescer no ambiente online.</p>
+          <ul>
+            <li>✓ Diagnóstico digital</li>
+            <li>✓ Planejamento estratégico</li>
+            <li>✓ Treinamento da equipe</li>
+          </ul>
+          <div class="svc-price">a partir de <strong>R$ 180</strong></div>
+          <a href="#contato" class="btn btn-outline">Solicitar orçamento</a>
+        </div>
+        <div class="service-card">
+          <div class="svc-icon" style="color:#2dd4bf">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+          </div>
+          <h3>Edição de Vídeo</h3>
+          <p>Edição profissional para YouTube, Instagram Reels, TikTok e apresentações corporativas.</p>
+          <ul>
+            <li>✓ Reels e TikTok</li>
+            <li>✓ Vídeos para YouTube</li>
+            <li>✓ Apresentações</li>
+          </ul>
+          <div class="svc-price">a partir de <strong>R$ 120</strong></div>
+          <a href="#contato" class="btn btn-outline">Solicitar orçamento</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section class="section section-alt" id="como-funciona">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Processo Simples</span>
+        <h2>Como funciona em 4 passos</h2>
+        <p>Do primeiro contato à entrega final, processo claro e sem complicações.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <h3>Entre em Contato</h3>
+            <p>Preencha o formulário ou me envie uma mensagem com o que você precisa.</p>
+          </div>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <h3>Orçamento Gratuito</h3>
+            <p>Em até 24h você recebe uma proposta detalhada sem nenhum compromisso.</p>
+          </div>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <h3>Mãos à Obra</h3>
+            <p>Após aprovação, inicio o trabalho e te mantenho atualizado em cada etapa.</p>
+          </div>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step">
+          <div class="step-number">04</div>
+          <div class="step-content">
+            <h3>Entrega & Revisão</h3>
+            <p>Entrego o projeto e faço revisões até você estar 100% satisfeito.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ORÇAMENTO -->
+  <section class="section" id="planos">
+    <div class="container">
+      <div class="orcamento-cta">
+        <div class="orcamento-text">
+          <span class="section-label">Orçamento Personalizado</span>
+          <h2>Cada projeto é único.<br>O preço também.</h2>
+          <p>Os valores nos cards são pontos de partida. O orçamento final depende do escopo, complexidade e prazo do seu projeto — e sempre cabe negociação.</p>
+          <ul class="orcamento-lista">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><polyline points="20 6 9 17 4 12"/></svg>
+              Resposta em até 24h
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><polyline points="20 6 9 17 4 12"/></svg>
+              Proposta detalhada e sem surpresas
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><polyline points="20 6 9 17 4 12"/></svg>
+              Sem compromisso para pedir
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><polyline points="20 6 9 17 4 12"/></svg>
+              Parcelamento disponível
+            </li>
+          </ul>
+          <div class="orcamento-btns">
+            <a href="#contato" class="btn btn-neon">Pedir orçamento grátis</a>
+            <a href="https://wa.me/5511934996762?text=Ol%C3%A1%20Anderson%2C%20gostaria%20de%20um%20or%C3%A7amento" target="_blank" rel="noopener" class="btn btn-outline">Chamar no WhatsApp</a>
+          </div>
+        </div>
+        <div class="orcamento-cards">
+          <div class="orc-card">
+            <span class="orc-label">Mais rápido</span>
+            <div class="orc-service">Landing Page</div>
+            <div class="orc-price">R$ 600</div>
+            <div class="orc-detail">entrega em 5 dias úteis</div>
+          </div>
+          <div class="orc-card orc-featured">
+            <span class="orc-label">Mais pedido</span>
+            <div class="orc-service">Site Completo + Identidade Visual</div>
+            <div class="orc-price">R$ 1.200</div>
+            <div class="orc-detail">entrega em 15 dias úteis</div>
+          </div>
+          <div class="orc-card">
+            <span class="orc-label">Recorrente</span>
+            <div class="orc-service">Gestão de Social Media</div>
+            <div class="orc-price">R$ 400<span>/mês</span></div>
+            <div class="orc-detail">contrato mensal flexível</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAIS -->
+  <section class="section section-alt" id="diferenciais">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Por que me contratar</span>
+        <h2>O que você ganha trabalhando comigo</h2>
+        <p>Sem terceirização, sem enrolação. Você fala diretamente com quem executa.</p>
+      </div>
+      <div class="diff-grid">
+        <div class="diff-card">
+          <div class="diff-icon" style="color:#a78bfa">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3>Entrega no Prazo</h3>
+          <p>Cada projeto começa com um cronograma claro. Prazo combinado é prazo cumprido — sem desculpas.</p>
+        </div>
+        <div class="diff-card">
+          <div class="diff-icon" style="color:#34d399">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+          <h3>Revisões Incluídas</h3>
+          <p>Não entrego e sumo. Ajustes fazem parte do processo até você estar 100% satisfeito com o resultado.</p>
+        </div>
+        <div class="diff-card">
+          <div class="diff-icon" style="color:#fbbf24">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 000-7.78z"/></svg>
+          </div>
+          <h3>Atendimento Direto</h3>
+          <p>Você fala direto comigo, não com um intermediário. Respostas rápidas, sem ruído de comunicação.</p>
+        </div>
+        <div class="diff-card">
+          <div class="diff-icon" style="color:#22d3ee">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+          </div>
+          <h3>Preço Transparente</h3>
+          <p>Orçamento detalhado antes de começar. Sem taxas escondidas, sem cobranças surpresa no meio do projeto.</p>
+        </div>
+        <div class="diff-card">
+          <div class="diff-icon" style="color:#f472b6">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Código Limpo e Rápido</h3>
+          <p>Sites leves, sem plugins desnecessários. Performance e SEO desde o primeiro dia, não como um extra pago.</p>
+        </div>
+        <div class="diff-card">
+          <div class="diff-icon" style="color:#2dd4bf">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+          </div>
+          <h3>Foco no Seu Negócio</h3>
+          <p>Não vendo tecnologia por tecnologia. Cada decisão é tomada pensando em resultado para o seu negócio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="section" id="contato">
+    <div class="container">
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <span class="section-label">Fale Comigo</span>
+          <h2>Vamos trabalhar juntos?</h2>
+          <p>Preencha o formulário ao lado e eu te retorno em até <strong>24 horas</strong> com uma proposta personalizada e sem compromisso.</p>
+          <div class="contact-items">
+            <div class="contact-item">
+                <div class="contact-icon-wrap">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 012.06 1.18 2 2 0 014.11 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 7a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14z"/></svg>
+                </div>
+              <div>
+                <strong>WhatsApp</strong>
+                <span>(11) 93499-6762</span>
+              </div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-icon-wrap">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12a2 2 0 01-2 2H4a2 2 0 01-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+              <div>
+                <strong>E-mail</strong>
+                <span>gdegoblin0@gmail.com</span>
+              </div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-icon-wrap">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </div>
+              <div>
+                <strong>Horário</strong>
+                <span>Seg–Sex: 8h às 18h</span>
+                <span>Sáb–Dom: 9h às 14h</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <!-- Honeypot anti-spam (oculto via CSS) -->
+          <div style="position:absolute;left:-9999px;opacity:0;pointer-events:none" aria-hidden="true">
+            <input type="text" name="website" tabindex="-1" autocomplete="off">
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nome">Seu Nome *</label>
+              <input type="text" id="nome" name="nome" placeholder="João Silva" required />
+              <span class="field-error" id="nomeError"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail *</label>
+              <input type="email" id="email" name="email" placeholder="joao@email.com" required />
+              <span class="field-error" id="emailError"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="servico">Serviço de Interesse *</label>
+            <select id="servico" name="servico" required>
+              <option value="">Selecione um serviço...</option>
+              <option value="design">Design Gráfico</option>
+              <option value="web">Desenvolvimento Web</option>
+              <option value="social">Social Media</option>
+              <option value="redacao">Redação & Conteúdo</option>
+              <option value="consultoria">Consultoria Digital</option>
+              <option value="video">Edição de Vídeo</option>
+              <option value="outro">Outro</option>
+            </select>
+            <span class="field-error" id="servicoError"></span>
+          </div>
+          <div class="form-group">
+            <label for="orcamento">Orçamento Aproximado</label>
+            <select id="orcamento" name="orcamento">
+              <option value="">Ainda não sei</option>
+              <option value="100-300">R$ 100 – R$ 300</option>
+              <option value="300-600">R$ 300 – R$ 600</option>
+              <option value="600-1000">R$ 600 – R$ 1.000</option>
+              <option value="1000+">Acima de R$ 1.000</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Descreva seu Projeto *</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte um pouco sobre o que você precisa..." required></textarea>
+            <span class="field-error" id="mensagemError"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+            <span id="btnText">Enviar Mensagem</span>
+            <span id="btnLoading" style="display:none">Enviando...</span>
+          </button>
+          <div id="formSuccess" class="form-success" style="display:none">
+            ✅ Mensagem enviada! Retornarei em até 24h.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo">Anderson<span> Freitas</span></a>
+        <p>Freelancer digital comprometido com qualidade, prazo e resultado.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Serviços</h4>
+          <a href="#servicos">Design Gráfico</a>
+          <a href="#servicos">Desenvolvimento Web</a>
+          <a href="#servicos">Social Media</a>
+          <a href="#servicos">Redação & Conteúdo</a>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <a href="#como-funciona">Como Funciona</a>
+          <a href="#planos">Orçamento</a>
+          <a href="#diferenciais">Por que eu?</a>
+          <a href="#contato">Contato</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Anderson Freitas. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- BOTÃO WHATSAPP FLUTUANTE -->
+  <a href="https://wa.me/5511934996762?text=Olá!%20Quero%20solicitar%20um%20orçamento." class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
